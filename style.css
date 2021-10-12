@@ -479,14 +479,7 @@ body li {
   margin: 0;
   padding: 0;
 }
-body a {
-  display: inline-block;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 18px;
-  color: #363636;
-}
+
 
 .header {
   background: #EEF9FF;
@@ -852,7 +845,14 @@ body a {
   top: 0;
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
 }
-
+body a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  color: #363636;
+}
 @media (max-width: 1430px) {
   .header__img-wrapper {
     display: none;
