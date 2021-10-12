@@ -587,7 +587,7 @@ body a {
 .header__content-list li::before {
   content: "";
   position: absolute;
-  background-image: url(../img/Iconslist.svg);
+  background-image: url(Iconslist.svg);
   width: 20px;
   height: 23px;
   left: 0px;
@@ -725,7 +725,7 @@ body a {
 }
 .reviews__content .prom-video {
   border-radius: 50px;
-  background-image: url(../img/video.png);
+  background-image: url(video.png);
   background-size: cover;
   background-position: center center;
   max-width: 605px;
