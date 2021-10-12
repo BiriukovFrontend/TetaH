@@ -531,13 +531,13 @@ body a {
 .header__menu li{
   display: inline-block;
 }
-.header__menu-link a {
+.header__menu.header__menu-link a {
   padding: 5px 24px;
   transition: transform 0.3s;
   font-weight: 700;
   line-height: 1;
 }
-.header__menu-link a:hover {
+.header__menu.header__menu-link a:hover {
   background-color: black;
   color: white;
   border-radius: 25px;
