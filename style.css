@@ -36,7 +36,14 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
+ a {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  color: #363636;
+}
 /* Grouping content
    ========================================================================== */
 /**
@@ -740,6 +747,8 @@ body li {
 .reviews__content-text p {
   margin-bottom: 18px;
 }
+
+
 .reviews__static {
   display: flex;
   justify-content: space-between;
@@ -845,14 +854,7 @@ body li {
   top: 0;
   transition: top 0.2s linear, transform 0.2s ease-in 0.2s;
 }
-body a {
-  display: inline-block;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 13px;
-  line-height: 18px;
-  color: #363636;
-}
+
 @media (max-width: 1430px) {
   .header__img-wrapper {
     display: none;
@@ -1073,4 +1075,4 @@ body a {
   }
 }
 
-
+/*# sourceMappingURL=style.css.map */
